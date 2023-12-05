@@ -5,5 +5,8 @@ if (media >=70):
     print("Parabéns!!! Aprovado")
 elif (media >= 40):
     print("Quase!!! Terá que fazer exame final")
+    notaFinal = int(input("Informe a nota do exame final: "))
+    if (notaFinal >= 70):
+        print(f'Parabéns!!! Aprovado com {notaFinal}')
 else:
     print("Uma pena!! Está reprovado")
